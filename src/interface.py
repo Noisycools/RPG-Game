@@ -127,7 +127,7 @@ class InterfaceWidget(Widget):
 		self.all_npc.add_widget(self.all_npc_list[0])
 		self.all_npc_position.append((14, 11))
 		self.all_npc_list.append(NPC((14,8), "assets/character/npc1/down.png",
-			"random", 2, "Script"))
+			"random", 2, ""))
 		self.all_npc.add_widget(self.all_npc_list[1])
 		self.all_npc_position.append((14, 8))
 		self.add_widget(self.all_npc)
